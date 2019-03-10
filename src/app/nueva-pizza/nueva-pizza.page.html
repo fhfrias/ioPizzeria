@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Nueva Pizza</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label stacked class="ex1">Nombre: </ion-label>
+      <ion-input [(ngModel)]="pizzaData.nombre" type="text" placeholder="Nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label stacked class="ex1">Ingredientes: </ion-label>
+        <ion-input [(ngModel)]="pizzaData.ingredientes" type="text" placeholder="Ingrdts"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label stacked class="ex1">Calidad: </ion-label>
+        <ion-input [(ngModel)]="pizzaData.calidad" type="text" placeholder="Calidad"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label stacked class="ex1">Precio: </ion-label>
+        <ion-input [(ngModel)]="pizzaData.precio" type="text" placeholder="Precio"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" (click)="anadirPizza()">Añadir</ion-button>
+
+</ion-content>

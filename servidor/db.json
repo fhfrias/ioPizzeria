@@ -1,0 +1,25 @@
+{
+  "pizzas": [
+    {
+      "nombre": "Margarita",
+      "ingredientes": "Queso tomate y oregano",
+      "calidad": "Baja",
+      "precio": 4,
+      "id": 1
+    },
+    {
+      "nombre": "Peperoni",
+      "ingredientes": "Queso tomate, chorizo y oregano",
+      "calidad": "Baja",
+      "precio": 6,
+      "id": 2
+    },
+    {
+      "nombre": "Carbonara",
+      "ingredientes": "dadsdasd",
+      "calidad": "dasda",
+      "precio": "5",
+      "id": 3
+    }
+  ]
+}
